@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "ENoteBook",
+    "slug": "ENoteBook",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+
+    
+    
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+      ,
+      "config": {
+        
+        "googleMobileAdsAppId": "ca-app-pub-3168736240681165~8854067013" 
+      }
+    },
+    "android": {
+
+      "package":"com.bestapplications.notetakingapp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      } ,
+      "config": {
+        
+        "googleMobileAdsAppId": "ca-app-pub-3168736240681165~7064087592" 
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

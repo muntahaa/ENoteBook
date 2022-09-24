@@ -11,9 +11,6 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-
-    
-    
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -21,27 +18,28 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-      ,
+      "supportsTablet": true,
       "config": {
-        
-        "googleMobileAdsAppId": "ca-app-pub-3168736240681165~8854067013" 
+        "googleMobileAdsAppId": "ca-app-pub-3168736240681165~8854067013"
       }
     },
     "android": {
-
-      "package":"com.bestapplications.notetakingapp",
+      "package": "com.bestapplications.notetakingapp",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      } ,
+      },
       "config": {
-        
-        "googleMobileAdsAppId": "ca-app-pub-3168736240681165~7064087592" 
+        "googleMobileAdsAppId": "ca-app-pub-3168736240681165~7064087592"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a581c3be-dda8-40cd-b69e-f64259977d91"
+      }
     }
   }
 }

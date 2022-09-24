@@ -108,7 +108,7 @@ const Main = (props) => {
                 />
                 <AdMobBanner
                 bannerSize="smartBannerPortrait"
-                adUnitID="ca-app-pub-3168736240681165/4506207016" 
+                adUnitID="ca-app-pub-3168736240681165/2669017759" 
                 servePersonalizedAds 
                 />
 
